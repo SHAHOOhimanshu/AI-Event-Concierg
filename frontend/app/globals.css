@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0614;
+}
+::-webkit-scrollbar-thumb {
+  background: #4c1d95;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}
